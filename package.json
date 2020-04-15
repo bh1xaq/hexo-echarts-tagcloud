@@ -1,6 +1,6 @@
 {
   "name": "hexo-echarts-tagcloud",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "a hexo tagcloud plug",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "echarts"
   ],
   "author": "TXisfine",
-  "license": "Apache",
+  "license": "Apache Version 2.0",
   "dependencies": {
     "hexo-pagination": "^0.1.0",
     "lodash.pick": "^4.4.0",
