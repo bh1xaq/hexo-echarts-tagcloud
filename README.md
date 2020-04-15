@@ -1,12 +1,12 @@
 # hexo-echarts-tagcloud
 
-基于echarts的hexo标签云插件
+基于echarts的hexo标签云插件。[插件简介](https://www.txisfine.cn/archives/7dc58b11.html)
 
 ![效果](https://cdn.txisfine.cn/upload/20200415162757.png)
 
 ## 安装
 
-- 安装 npm install g hexo-echarts-tagcloud
+- 安装 npm install -g hexo-echarts-tagcloud
 
 - 修改 _config.yml 文件
 
