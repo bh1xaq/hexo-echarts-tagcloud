@@ -26,7 +26,7 @@ documentId标记tag组件id
 ```
 if config.tagcloud.enable
         script(type="text/javascript" charset="utf-8" src="/js/tagcloud/echarts.simple.js")
-        script(type="text/javascript" charset="utf-8" src="/js/tagcloud/echarts-wordcloud.js")
+        script(type="text/javascript" charset="utf-8" src="/js/tagcloud/echarts-wordcloud.min.js")
         script(type="text/javascript" charset="utf-8" src="/js/tagcloud/tagcloud.js")
         #card-tag-cloud(class=["card-tag-cloud"] style={height:"500px"})
 ```
