@@ -19,7 +19,7 @@ hexo.extend.generator.register("echart-tagcloud", function (site) {
 
     let echartswordcloudPath = path.join(
       path.join(hexo.public_dir, "js/tagcloud"),
-      "echarts-wordcloud.js"
+      "echarts-wordcloud.min.js"
     );
 
     let echartsPath = path.join(
@@ -57,7 +57,7 @@ hexo.extend.generator.register("echart-tagcloud", function (site) {
     fs.writeFile(tagcloudPath, tk);
     fs.copyFile(path.join(libPath, "echarts.simple.js"), echartsPath);
     fs.copyFile(
-      path.join(libPath, "echarts-wordcloud.js"),
+      path.join(libPath, "echarts-wordcloud.min.js"),
       echartswordcloudPath
     );
   }
